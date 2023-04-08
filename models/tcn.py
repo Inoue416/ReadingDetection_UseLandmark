@@ -63,3 +63,7 @@ class TemporalConvNet(nn.Module):
     
     def forward(self, x):
         return self.network(x)
+
+if __name__ == "__main__":
+    model = TemporalConvNet(1120, [512, 256, 128])
+    print(model)
