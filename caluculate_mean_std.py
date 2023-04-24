@@ -92,3 +92,23 @@ if __name__ == '__main__':
     print('total y mean: ', total_y.mean())
     print('\ntotal x std: ', total_x.std(ddof=1))
     print('total y std: ', total_y.std(ddof=1))
+
+
+# 結果のログ
+# train x mean:  148.24644011132278
+# train y mean:  51.53174179824078
+
+# train x std:  77.03646660884381
+# train y std:  97.65989653827593
+
+# val x mean:  148.18480410500237
+# val y mean:  51.56128044082794
+
+# val x std:  77.10693955205228
+# val y std:  97.6879193958317
+
+# total x mean:  148.23420831915647
+# total y mean:  51.537603802588094
+
+# total x std:  77.05046022133415
+# total y std:  97.66545789650691
