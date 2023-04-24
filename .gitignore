@@ -1,1 +1,6 @@
 path_make.py
+train_path.txt
+val_path.txt
+__pycache__
+sample.py
+weights
